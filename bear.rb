@@ -18,5 +18,13 @@ class Bear
     def bear_roar(string)
       return "Bear #{string}"
     end
+    #
+    def full_belly()
+      if @stomach.length + river.fish[] == true
+      return @stomach.length
+      end
+    end
+
+
 
 end
